@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+80s+Fade&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Vinyl&display=swap" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Rubik+80s+Fade&display=swap');
+    </style>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Rubik+Vinyl&display=swap');
+    </style>
+    <link rel="shortcut icon" href="./assests/images/M-favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="./assests/css/style.css">
+    <script src="./assests/scripts/script.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/i18next@22.4.3/dist/umd/i18next.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/i18next-http-backend@1.3.1/dist/umd/i18nextHttpBackend.min.js"></script>    <title>Personajes Marvel</title>
+</head>
+
+<body>
+    <div id="top_container">
+        <div id="logo_container">
+            <a href="./index.html">
+                <img src="./assests/images/Marvel_Logo.svg.png" alt="" srcset="" id="logo">
+            </a>
+        </div>
+        <input type="text" name="search" id="search_text" placeholder="Escribe para buscar un personaje..." required>
+        <button type="submit" id="tosearch" onclick="show_results()">Buscar</button>
+        <a href="./favourites.html">
+            <button type="button" id="micro_fav_btn">Favoritos</button>
+        </a>
+    </div>
+    <div class="major_container">
+        <div id="listHolder">
+
+        </div>
+    </div>
+</body>
+
+</html>
